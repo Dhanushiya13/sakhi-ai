@@ -19,7 +19,7 @@ function App() {
           transition={{ duration: 0.5 }}
           className="logo-container"
         >
-          <img src="sakhi_logo.png" alt="Sakhi AI Logo" className="logo" />
+          <img src="images/sakhi_logo.png" alt="Sakhi AI Logo" className="logo" />
           <h1 className="app-title">Sakhi AI</h1>
         </motion.div>
         <motion.div 
