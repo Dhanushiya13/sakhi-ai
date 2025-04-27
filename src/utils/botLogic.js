@@ -94,7 +94,7 @@ const DB = {
       image: divyaImg
     }
   ],
-  export default DB;
+ 
   faqs: [
     {
       question: 'What is ASHA?',
