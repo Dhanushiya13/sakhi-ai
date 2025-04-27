@@ -11,7 +11,7 @@ const DB = {
       location: 'Remote',
       type: 'Full-time',
       experience: '2-5 years',
-      image: 'images/software.webp'
+      image: '/images/software.webp'
     },
     {
       id: 'job2',
@@ -21,7 +21,7 @@ const DB = {
       location: 'Mumbai, India',
       type: 'Part-time',
       experience: '1-2 years',
-      image: 'images/community.jpeg'
+      image: '/images/community.jpeg'
     },
     {
       id: 'job3',
@@ -31,7 +31,7 @@ const DB = {
       location: 'Hybrid',
       type: 'Freelance',
       experience: '0-1 years',
-      image: 'images/content.jpeg'
+      image: '/images/content.jpeg'
     }
   ],
   events: [
@@ -41,7 +41,7 @@ const DB = {
       description: 'Annual conference featuring talks from top women tech leaders',
       date: '2025-06-15',
       location: 'Bangalore',
-      image: 'images/women-in-tech-summit-nowords.png'
+      image: '/images/women-in-tech-summit-nowords.png'
     },
     {
       id: 'event2',
@@ -49,7 +49,7 @@ const DB = {
       description: 'Learn how to start and scale your business',
       date: '2025-05-20',
       location: 'Delhi',
-      image: 'images/workshop.jpg'
+      image: '/images/workshop.jpg'
     },
     {
       id: 'event3',
@@ -57,7 +57,7 @@ const DB = {
       description: 'Connect with like-minded women in your industry',
       date: '2025-05-10',
       location: 'Virtual',
-      image: 'images/network.jpg'
+      image: '/images/network.jpg'
     }
   ],
   mentors: [
@@ -67,7 +67,7 @@ const DB = {
       expertise: 'Technology Leadership',
       experience: '15+ years in tech',
       availability: 'Weekends',
-      image: 'images/priya.jpg'
+      image: '/images/priya.jpg'
     },
     {
       id: 'mentor2',
@@ -75,7 +75,7 @@ const DB = {
       expertise: 'Entrepreneurship',
       experience: 'Founded 3 successful startups',
       availability: 'Weekday evenings',
-      image: 'images/aisha.jpg'
+      image: '/images/aisha.jpg'
     },
     {
       id: 'mentor3',
@@ -83,7 +83,7 @@ const DB = {
       expertise: 'Career Coaching',
       experience: '10+ years in HR',
       availability: 'Flexible',
-      image: 'images/divya.jpg'
+      image: '/images/divya.jpg'
     }
   ],
   faqs: [
