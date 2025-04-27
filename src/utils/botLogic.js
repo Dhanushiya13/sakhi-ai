@@ -1,13 +1,4 @@
 import { format } from 'date-fns'
-import softwareImg from '../images/software.webp';
-import communityImg from '../images/community.jpeg';
-import contentImg from '../images/content.jpeg';
-import womenInTechImg from '../images/women-in-tech-summit-nowords.png';
-import workshopImg from '../images/workshop.jpg';
-import networkImg from '../images/network.jpg';
-import priyaImg from '../images/priya.jpg';
-import aishaImg from '../images/aisha.jpg';
-import divyaImg from '../images/divya.jpg';
 // Database simulation
 const DB = {
   jobs: [
@@ -19,7 +10,7 @@ const DB = {
       location: 'Remote',
       type: 'Full-time',
       experience: '2-5 years',
-      image: softwareImg
+      image: 'images/software.webp'
     },
     {
       id: 'job2',
@@ -29,7 +20,7 @@ const DB = {
       location: 'Mumbai, India',
       type: 'Part-time',
       experience: '1-2 years',
-      image: communityImg
+      image: 'images/community.jpeg'
     },
     {
       id: 'job3',
@@ -39,7 +30,7 @@ const DB = {
       location: 'Hybrid',
       type: 'Freelance',
       experience: '0-1 years',
-      image: contentImg
+      image: 'images/content.jpeg'
     }
   ],
   events: [
@@ -49,7 +40,7 @@ const DB = {
       description: 'Annual conference featuring talks from top women tech leaders',
       date: '2025-06-15',
       location: 'Bangalore',
-      image: womenInTechImg
+      image: 'images/women-in-tech-summit-nowords.png'
     },
     {
       id: 'event2',
@@ -57,7 +48,7 @@ const DB = {
       description: 'Learn how to start and scale your business',
       date: '2025-05-20',
       location: 'Delhi',
-      image: workshopImg
+      image: 'images/workshop.jpg'
     },
     {
       id: 'event3',
@@ -65,7 +56,7 @@ const DB = {
       description: 'Connect with like-minded women in your industry',
       date: '2025-05-10',
       location: 'Virtual',
-      image: networkImg
+      image: 'images/network.jpg'
     }
   ],
   mentors: [
@@ -75,7 +66,7 @@ const DB = {
       expertise: 'Technology Leadership',
       experience: '15+ years in tech',
       availability: 'Weekends',
-      image: priyaImg
+      image: 'images/priya.jpg'
     },
     {
       id: 'mentor2',
@@ -83,17 +74,8 @@ const DB = {
       expertise: 'Entrepreneurship',
       experience: 'Founded 3 successful startups',
       availability: 'Weekday evenings',
-      image: aishaImg
-    },
-    {
-      id: 'mentor3',
-      name: 'Divya Gupta',
-      expertise: 'Career Coaching',
-      experience: '10+ years in HR',
-      availability: 'Flexible',
-      image: divyaImg
-    }
-  ],
+      image: 'images/aisha.jpg'
+}
  
   faqs: [
     {
