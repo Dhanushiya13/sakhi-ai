@@ -8,7 +8,7 @@ function Message({ message, onOptionClick }) {
     <div className={`message-wrapper ${sender === 'user' ? 'user-message' : 'bot-message'}`}>
       {sender === 'bot' && (
         <div className="bot-avatar-small">
-          <img src="sakhi_logo.png" alt="Sakhi" />
+          <img src="images/sakhi_logo.png" alt="Sakhi" />
         </div>
       )}
       
